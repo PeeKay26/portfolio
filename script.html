@@ -49,6 +49,20 @@
             document.getElementById("result").value=r;
         }
     </script>
+    <script>
+    function mult()
+    {
+        n=document.getElementById('num').value;
+        //alert(n);
+        var r='';
+        for (var a=1; a<=10; a++ )
+        {
+            c=n*a;
+            r+=n +' x '+ a +' = '+ c +'<br>';
+        }
+        document.getElementById('para').innerHTML=r;
+    }
+    </script>
         <style>
             #calcu{width:300px;height:250px;}
             #button{width:100%;height:40px;font-size:20px;}
@@ -129,6 +143,11 @@
       <button onclick="minus()">-</button>
       <button onclick="multiply()">*</button>
       <button onclick="divide()">/</button>
+      <h1>Multiplication Table</h1>
+    <label for="num">Enter any number</label>
+    <input type="text" id="num">
+    <p id="para">Result: </p>
+    <button type="button" onclick="mult()">Submit</button>
       </body> 
     </html>
 
