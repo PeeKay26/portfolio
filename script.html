@@ -154,7 +154,39 @@
                     </td> 
               </tr>
             </table> 
-        </form> 
+        </form>
+        <canvas id="c1" height="500" width="800" style="border: 5px solid black; background-color: red;">
+    </canvas>
+    <script>
+        var can=document.getElementById('c1');
+        var b=can.getContext('2d');
+        b.fillStyle="white";
+        b.font="50px Fantasy"
+        b.fillText("Merry Christmas!", 200, 90)
+        b.fillStyle="white";
+        b.font="20px Fantasy"
+        b.fillText("Have a wonderful Christmas! Wishing  you the gifts of the season — Peace, Joy, Hope.", 10, 190)
+        b.stroke();
+        b.beginPath();
+        b.arc(100, 400, 70, 0, 2 * Math.PI);
+        b.fillStyle="green";
+        b.fill();
+        b.stroke();
+        b.beginPath();
+        b.rect(20, 20, 150, 100);
+        b.fillStyle="yellow";
+        b.fill();
+        b.stroke();
+        b.beginPath();
+        b.arc(600, 360, 90, 0, 2 * Math.PI);
+        b.fillStyle="blue";
+        b.fill();
+        b.stroke();
+        b.beginPath();
+        b.rect(256, 390, 150, 100);
+        b.fillStyle="lime";
+        b.fill();
+    </script>
       <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: cadetblue;">Basic Calculator</h1>
       <label for="n1">Enter first number</label>
       <input type="number" id="n1"> <br><br>
