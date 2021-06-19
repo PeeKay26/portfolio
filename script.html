@@ -2,8 +2,24 @@
     <head>
         <title>Java Script Projects</title>
         <link rel="stylesheet" href="portfolistyle.css">
+        <script>
+        function ref()
+        {
+            var r=1000; //ms
+            myt=setTimeout('C1()',r)
+        }
+        function C1(){
+            var t=new Date().getHours();
+            
+            var n=new Date().getMinutes();
+            var s=new Date().getSeconds();
+            var l=new Date().getMilliseconds();
+            document.getElementById('c').innerHTML=t+':']
+        }
+    </script>
     </head> 
     <body onload="ref()">
+        <p id="c" style="float: right;"><p> 
         <h1 style="color: black; font-family: Trend Sans;">My Portfolio</h1>
     <div class="tabs">
         <div><a href="aboutmyself.html">About Myself</a></div>
@@ -12,7 +28,8 @@
         <div><a href="cookingpage.html">My Cooking Page</a></div>
         <div><a href="script.html">My Projects with Java Script</a></div>
     </div>
-        <p id="c"><p>
+        
+        
         <h1 style="color: royalblue;">Basic Arithmetic Calculator</h1> <br> 
       <style>
         button{
@@ -73,21 +90,7 @@
         }
     </style>
                                             
-        <script>
-        function ref()
-        {
-            var r=1000; //ms
-            myt=setTimeout('C1()',r)
-        }
-        function C1(){
-            var t=new Date().getHours();
-            
-            var n=new Date().getMinutes();
-            var s=new Date().getSeconds();
-            var l=new Date().getMilliseconds();
-            document.getElementById('c').innerHTML=t+':']
-        }
-    </script>
+       
         <style>
             #calcu{width:300px;height:250px;}
             #button{width:100%;height:40px;font-size:20px;}
