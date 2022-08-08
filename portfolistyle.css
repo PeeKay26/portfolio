@@ -3,14 +3,13 @@ body{
 }
 
 @font-face {
-    font-family: sans-serif;
-    src: url("../portfolio/ABeeZee-Regular.otf") format('truetype');
-    font-weight: bold;
-    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 }
 
 h1 {
-    font-family: sans-serif;
+    font-family: Raleway;
+    color: orange;
     text-align: center;
     text-decoration: transparent;
     
@@ -26,8 +25,8 @@ h1 {
 {
     width: 20%;
     height: 80px;
-    font-family: sans-serif;
-    font-size: 40px
+    font-family: Raleway;
+    font-size: 100px
     padding: 10px;
     margin: 20px;
     text-align: center;
