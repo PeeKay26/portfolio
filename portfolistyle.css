@@ -4,7 +4,6 @@ body{
 
 @font-face {
     font-family: 'Raleway', sans-serif;
-    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 }
 
 h1 {
