@@ -3,9 +3,11 @@ body{
 }
 
 @font-face {
-    font-family: "Trend Sans";
-    src: url("Latinotype - TrendSansOne.otf") format("opentype"),
-    }
+    font-family: F16;
+    src: url("../portfolio/ABeeZee-Regular.otf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
 
 h1 {
     text-align: center;
