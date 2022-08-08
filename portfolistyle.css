@@ -1,9 +1,9 @@
 body{
-    background-color: darksalmon;
+    background-color: yellow;
 }
 
 @font-face {
-    font-family: F16;
+    font-family: sans-serif;
     src: url("../portfolio/ABeeZee-Regular.otf") format('truetype');
     font-weight: bold;
     font-style: normal;
